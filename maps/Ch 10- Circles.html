@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.18/dist/katex.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(e=>{window.WebFontConfig={custom:{families:["KaTeX_AMS","KaTeX_Caligraphic:n4,n7","KaTeX_Fraktur:n4,n7","KaTeX_Main:n4,n7,i4,i7","KaTeX_Math:i4,i7","KaTeX_Script","KaTeX_SansSerif:n4,n7,i4","KaTeX_Size1","KaTeX_Size2","KaTeX_Size3","KaTeX_Size4","KaTeX_Typewriter"]},active:()=>{e().refreshHook.call()}}})(()=>window.markmap)</script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" defer></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Circles","children":[{"content":"1. Tangent Basics","children":[{"content":"[cite_start]<strong>Definition</strong>: A line intersecting the circle at only one point[cite: 9449].","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"[cite_start]<strong>Point of Contact</strong>: The common point between line and circle[cite: 9493].","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"[cite_start]<strong>Parallel Tangents</strong>: A circle can have at most two parallel tangents (at ends of a diameter)[cite: 9487].","children":[],"payload":{"tag":"li","lines":"5,7"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"2. Theorems","children":[{"content":"<strong>Theorem 10.1 (Radius-Tangent)</strong>","children":[{"content":"[cite_start]The tangent is <strong>perpendicular</strong> to the radius at the point of contact[cite: 9503].","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"<em>Application</em>: Used to find missing sides in right triangles formed by Radius-Tangent-Chord.","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"8,11"}},{"content":"<strong>Theorem 10.2 (External Point)</strong>","children":[{"content":"[cite_start]The lengths of tangents drawn from an external point to a circle are <strong>equal</strong>[cite: 9574].","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"[cite_start]<em>Geometry</em>: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">&#x394;</mi><mi>O</mi><mi>Q</mi><mi>P</mi><mo>&#x2245;</mo><mi mathvariant=\"normal\">&#x394;</mi><mi>O</mi><mi>R</mi><mi>P</mi></mrow><annotation encoding=\"application/x-tex\">\\Delta OQP \\cong \\Delta ORP</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord\">&#x394;</span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">OQP</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&#x2245;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">&#x394;</span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">ORP</span></span></span></span> (RHS Congruence)[cite: 9583].","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"[cite_start]<em>Note</em>: Centre lies on the angle bisector of the two tangents[cite: 9599].","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"11,15"}}],"payload":{"tag":"h2","lines":"7,8"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
